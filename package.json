@@ -11,7 +11,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+
+    "test": "react-scripts test",
     "cosmos": "FAST_REFRESH=false cosmos",
     "cosmos-export": "cosmos-export",
     "eject": "react-scripts eject"

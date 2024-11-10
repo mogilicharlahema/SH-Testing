@@ -9,3 +9,10 @@ export function isValidPasswordPattern(passwordText) {
         && /[A-Z]/.test(passwordText)
         && /[@$!%*?^&#]/.test(passwordText)
 }
+
+export function isValidNumberPattern(numberText) {
+    const check = /^[0-9]+$/;
+                  /^\d{10}$/;
+    return check.test(numberText);
+}
+
